@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Yeseva-One";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Yeseva-One"),
+            url("YesevaOne-Regular.woff2") format("woff2");
+  }
+
+@font-face {
+    font-family: "Nuntio-Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Nuntio-Sans"),
+            url("NunitoSans.woff2") format("woff2");
+  }

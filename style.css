@@ -1,0 +1,110 @@
+body {
+    margin: 0 auto;
+    background-color: #131313;
+}
+
+
+/* Верхнее меню */
+.header-menu {
+    color: #E3B873;
+    display: inline;
+}
+.header-menu__items {
+    list-style-type: none;
+    padding-left: 50%;
+    padding-top: 107px;
+    font-family: "Yeseva-One", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.header-menu ul li {
+    display: inline;
+    margin: 2em;
+}
+.header-menu ul li:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.header-menu a {
+    color: #E3B873;
+}
+
+.header-menu a:hover {
+    color: #FFFFFF;
+}
+
+.left {
+    display: inline-block;
+}
+.right {
+    display: inline-block;
+    padding-left: 400px;
+}
+
+/* Левая часть контента */
+.left-content {
+    padding-left: 134px;
+    display: flex;
+    flex-direction: column;
+    width: 442px;
+}
+
+.left-content__title {
+    color: #E3B873;
+    font-family: "Yeseva-One", sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.left-content__text {
+    padding-top: 34px;
+    color: #FFFFFF;
+    font-family: "Yeseva-One", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 442px;
+    padding-left: 134px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 161px;
+}
+
+.block__title {
+    padding-top: 50px;
+    color: #E3B873;
+    font-family: "Yeseva-One", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.block__text {
+    padding-top: 10px;
+    color: #FFFFFF;
+    font-family: "Yeseva-One", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.slide {
+    padding-top: 80px;
+    padding-left: 134px;
+}
+
+
+/* Правая часть контента */
+.right-content {
+    padding-top: 45px;
+}
